@@ -26,7 +26,7 @@ Premium Minecraft server hosting panel with a dark forest-green gradient design 
 Run the automated management script:
 
 ```bash
-bash install.sh
+bash <(curl -s https://raw.githubusercontent.com/linuxebug/SpaceMC-Panel/main/install.sh)
 ```
 
 Menu Options:
