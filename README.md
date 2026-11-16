@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SpaceMC Panel
 
 Premium Minecraft server hosting panel with a dark forest-green gradient design inspired by NookTheme.
@@ -136,3 +137,7 @@ package.json        # Dependencies & scripts
 ## License
 
 ISC
+=======
+# SpaceMC-Panel
+A New Minecraft Hosting Panel
+>>>>>>> 02c403ae65b88ef0b5b529b86f4809e597c3e7db
