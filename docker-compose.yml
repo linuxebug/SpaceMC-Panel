@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  spacemc-main:
+    build: .
+    container_name: spacemc-main
+    restart: unless-stopped
+    ports:
+      - "6969:6969"
+      - "6868:6868"
+    environment:
+      - NODE_ENV=production
+      - PORT=6969
+      - ENABLE_DOCKER=true
+      - DOCKER_SOCKET_PATH=/var/run/docker.sock
+      - JTG_HOST_DATA_PATH=${PWD}/.data
+      - JTG_OWNER_USER=${JTG_OWNER_USER:-}
+      - JTG_OWNER_PASS=${JTG_OWNER_PASS:-}
+    volumes:
+      - ./.data:/app/.data
+      - ./backups:/app/backups
+      - /var/run/docker.sock:/var/run/docker.sock
+
+
+

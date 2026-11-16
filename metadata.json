@@ -1,0 +1,6 @@
+{
+  "name": "SpaceMC Panel",
+  "description": "Premium Minecraft server hosting panel with file manager, terminal access, and real-time console.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
